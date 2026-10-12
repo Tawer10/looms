@@ -1,0 +1,33 @@
+# Local data and secrets
+data/
+*.csv
+*.json
+*.txt
+*.env
+*.env.*
+!.env.example
+
+# Generated media and caches
+*.mp4
+*.webm
+*.gif
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+*.m4a
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local tooling
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
